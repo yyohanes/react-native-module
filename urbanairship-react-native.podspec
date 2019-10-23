@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/urbanairship/react-native-module.git", :tag => '1.6.2'}
     s.author       = 'Urban Airship'
     s.source_files = 'ios/**/*.{h,m}'
-    s.platform     = :ios
+    s.platform     = :ios, '8.0'
     s.dependency 'UrbanAirship-iOS-SDK', '9.3.1'
     s.dependency 'React'
   end
